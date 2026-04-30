@@ -1,0 +1,77 @@
+# Visual Studio / Rider / VS Code
+.vs/
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.DotSettings.user
+
+# Build outputs
+bin/
+obj/
+**/bin/
+**/obj/
+*.dll
+*.exe
+*.pdb
+
+# NuGet
+*.nupkg
+packages/
+project.lock.json
+project.assets.json
+
+# Rider / ReSharper
+_ReSharper*/
+*.resharper
+*.ideavimrc
+
+# Logs & databases
+*.log
+logs/
+*.sqlite
+*.db
+*.ldb
+
+# Publish / deployment
+publish/
+*.publishsettings
+*.azurePubxml
+
+# Temporary and OS files
+[Tt]humbs.db
+.DS_Store
+desktop.ini
+~$*
+
+# User-specific files
+*.vsix
+*.cache
+*.bak
+
+# Secrets / local environment
+.env
+.env.* 
+secrets.json
+appsettings.*.Local.json
+appsettings.Development.json
+
+# VS Code settings that may contain local secrets
+.vscode/*
+
+# Data produced at runtime (game saves, temp data)
+data/
+data/**
+
+# Ignore generated obj lists from build system in repo root (if any)
+*.FileListAbsolute.txt
+
+# Optional: ignore node modules if present
+node_modules/
+
+# Certificates
+*.pfx
+*.key
+*.cer

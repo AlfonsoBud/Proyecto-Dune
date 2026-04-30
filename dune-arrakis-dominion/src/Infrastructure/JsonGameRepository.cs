@@ -9,7 +9,7 @@ namespace Infrastructure.Persistence
 {
     public class JsonGameRepository : IGameRepository
     {
-        private readonly string _dataDirectory = Path.Combine(Directory.GetCurrentDirectory(), "data", "games");
+        private readonly string _dataDirectory = Path.Combine(AppContext.BaseDirectory, "data", "games");
 
         public JsonGameRepository()
         {
@@ -22,7 +22,11 @@ namespace Infrastructure.Persistence
         public async Task SaveAsync(Game game)
         {
             var filePath = Path.Combine(_dataDirectory, $"{game.Id}.json");
-            var options = new JsonSerializerOptions { WriteIndented = true };
+            var options = new JsonSerializerOptions
+            {
+                WriteIndented = true,
+                PropertyNameCaseInsensitive = true
+            };
             var json = JsonSerializer.Serialize(game, options);
             await File.WriteAllTextAsync(filePath, json);
         }
@@ -36,7 +40,13 @@ namespace Infrastructure.Persistence
             }
 
             var json = await File.ReadAllTextAsync(filePath);
-            return JsonSerializer.Deserialize<Game>(json);
+            var options = new JsonSerializerOptions { PropertyNameCaseInsensitive = true };
+            var game = JsonSerializer.Deserialize<Game>(json, options);
+            if (game is null)
+            {
+                throw new InvalidDataException($"Could not deserialize game file: {filePath}");
+            }
+            return game;
         }
     }
 }

@@ -1,12 +1,24 @@
 {
   "version": 2,
-  "dgSpecHash": "I/KKcYkCseo=",
-  "success": true,
-  "projectFilePath": "C:\\Users\\mglez\\OneDrive - Fundación Universitaria San Pablo CEU\\Escritorio\\3 AÑO\\2 CUATRI\\Programacion en Entornos Distribuidos\\Dune\\Proyecto-Dune\\dune-arrakis-dominion\\src\\PersistenceService\\PersistenceService.csproj",
+  "dgSpecHash": "D6mb99jYKVA=",
+  "success": false,
+  "projectFilePath": "C:\\Users\\mglez\\OneDrive - Fundación Universitaria San Pablo CEU\\Escritorio\\3 AÑO\\2 CUATRI\\Programacion en Entornos Distribuidos\\Proyecto-Dune\\dune-arrakis-dominion\\src\\PersistenceService\\PersistenceService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mglez\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
     "C:\\Users\\mglez\\.nuget\\packages\\system.text.encodings.web\\6.0.0\\system.text.encodings.web.6.0.0.nupkg.sha512",
     "C:\\Users\\mglez\\.nuget\\packages\\system.text.json\\6.0.0\\system.text.json.6.0.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "No se encuentra el proyecto \"C:\\Users\\mglez\\OneDrive - Fundación Universitaria San Pablo CEU\\Escritorio\\3 AÑO\\2 CUATRI\\Programacion en Entornos Distribuidos\\Proyecto-Dune\\dune-arrakis-dominion\\src\\Shared\\Shared.csproj\". Compruebe que la referencia al proyecto sea válida y que exista el archivo de proyecto.",
+      "projectPath": "C:\\Users\\mglez\\OneDrive - Fundación Universitaria San Pablo CEU\\Escritorio\\3 AÑO\\2 CUATRI\\Programacion en Entornos Distribuidos\\Proyecto-Dune\\dune-arrakis-dominion\\src\\PersistenceService\\PersistenceService.csproj",
+      "filePath": "C:\\Users\\mglez\\OneDrive - Fundación Universitaria San Pablo CEU\\Escritorio\\3 AÑO\\2 CUATRI\\Programacion en Entornos Distribuidos\\Proyecto-Dune\\dune-arrakis-dominion\\src\\PersistenceService\\PersistenceService.csproj",
+      "libraryId": "C:\\Users\\mglez\\OneDrive - Fundación Universitaria San Pablo CEU\\Escritorio\\3 AÑO\\2 CUATRI\\Programacion en Entornos Distribuidos\\Proyecto-Dune\\dune-arrakis-dominion\\src\\Shared\\Shared.csproj",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
 }

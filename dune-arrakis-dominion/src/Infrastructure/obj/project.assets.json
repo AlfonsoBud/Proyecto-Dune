@@ -76,19 +76,6 @@
         "runtime": {
           "bin/placeholder/Domain.dll": {}
         }
-      },
-      "Shared/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
-        "dependencies": {
-          "Domain": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/Shared.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Shared.dll": {}
-        }
       }
     }
   },
@@ -203,17 +190,12 @@
       "type": "project",
       "path": "../Domain/Domain.csproj",
       "msbuildProject": "../Domain/Domain.csproj"
-    },
-    "Shared/1.0.0": {
-      "type": "project",
-      "path": "../Shared/Shared.csproj",
-      "msbuildProject": "../Shared/Shared.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "C:\\Users\\mglez\\OneDrive - Fundación Universitaria San Pablo CEU\\Escritorio\\3 AÑO\\2 CUATRI\\Programacion en Entornos Distribuidos\\Proyecto-Dune\\dune-arrakis-dominion\\src\\Shared\\Shared.csproj",
       "Domain >= 1.0.0",
-      "Shared >= 1.0.0",
       "System.Text.Json >= 6.0.0"
     ]
   },
@@ -224,11 +206,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mglez\\OneDrive - Fundación Universitaria San Pablo CEU\\Escritorio\\3 AÑO\\2 CUATRI\\Programacion en Entornos Distribuidos\\Dune\\Proyecto-Dune\\dune-arrakis-dominion\\src\\Infrastructure\\Infrastructure.csproj",
+      "projectUniqueName": "C:\\Users\\mglez\\OneDrive - Fundación Universitaria San Pablo CEU\\Escritorio\\3 AÑO\\2 CUATRI\\Programacion en Entornos Distribuidos\\Proyecto-Dune\\dune-arrakis-dominion\\src\\Infrastructure\\Infrastructure.csproj",
       "projectName": "Infrastructure",
-      "projectPath": "C:\\Users\\mglez\\OneDrive - Fundación Universitaria San Pablo CEU\\Escritorio\\3 AÑO\\2 CUATRI\\Programacion en Entornos Distribuidos\\Dune\\Proyecto-Dune\\dune-arrakis-dominion\\src\\Infrastructure\\Infrastructure.csproj",
+      "projectPath": "C:\\Users\\mglez\\OneDrive - Fundación Universitaria San Pablo CEU\\Escritorio\\3 AÑO\\2 CUATRI\\Programacion en Entornos Distribuidos\\Proyecto-Dune\\dune-arrakis-dominion\\src\\Infrastructure\\Infrastructure.csproj",
       "packagesPath": "C:\\Users\\mglez\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mglez\\OneDrive - Fundación Universitaria San Pablo CEU\\Escritorio\\3 AÑO\\2 CUATRI\\Programacion en Entornos Distribuidos\\Dune\\Proyecto-Dune\\dune-arrakis-dominion\\src\\Infrastructure\\obj\\",
+      "outputPath": "C:\\Users\\mglez\\OneDrive - Fundación Universitaria San Pablo CEU\\Escritorio\\3 AÑO\\2 CUATRI\\Programacion en Entornos Distribuidos\\Proyecto-Dune\\dune-arrakis-dominion\\src\\Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -249,11 +231,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\mglez\\OneDrive - Fundación Universitaria San Pablo CEU\\Escritorio\\3 AÑO\\2 CUATRI\\Programacion en Entornos Distribuidos\\Dune\\Proyecto-Dune\\dune-arrakis-dominion\\src\\Domain\\Domain.csproj": {
-              "projectPath": "C:\\Users\\mglez\\OneDrive - Fundación Universitaria San Pablo CEU\\Escritorio\\3 AÑO\\2 CUATRI\\Programacion en Entornos Distribuidos\\Dune\\Proyecto-Dune\\dune-arrakis-dominion\\src\\Domain\\Domain.csproj"
+            "C:\\Users\\mglez\\OneDrive - Fundación Universitaria San Pablo CEU\\Escritorio\\3 AÑO\\2 CUATRI\\Programacion en Entornos Distribuidos\\Proyecto-Dune\\dune-arrakis-dominion\\src\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\Users\\mglez\\OneDrive - Fundación Universitaria San Pablo CEU\\Escritorio\\3 AÑO\\2 CUATRI\\Programacion en Entornos Distribuidos\\Proyecto-Dune\\dune-arrakis-dominion\\src\\Domain\\Domain.csproj"
             },
-            "C:\\Users\\mglez\\OneDrive - Fundación Universitaria San Pablo CEU\\Escritorio\\3 AÑO\\2 CUATRI\\Programacion en Entornos Distribuidos\\Dune\\Proyecto-Dune\\dune-arrakis-dominion\\src\\Shared\\Shared.csproj": {
-              "projectPath": "C:\\Users\\mglez\\OneDrive - Fundación Universitaria San Pablo CEU\\Escritorio\\3 AÑO\\2 CUATRI\\Programacion en Entornos Distribuidos\\Dune\\Proyecto-Dune\\dune-arrakis-dominion\\src\\Shared\\Shared.csproj"
+            "C:\\Users\\mglez\\OneDrive - Fundación Universitaria San Pablo CEU\\Escritorio\\3 AÑO\\2 CUATRI\\Programacion en Entornos Distribuidos\\Proyecto-Dune\\dune-arrakis-dominion\\src\\Shared\\Shared.csproj": {
+              "projectPath": "C:\\Users\\mglez\\OneDrive - Fundación Universitaria San Pablo CEU\\Escritorio\\3 AÑO\\2 CUATRI\\Programacion en Entornos Distribuidos\\Proyecto-Dune\\dune-arrakis-dominion\\src\\Shared\\Shared.csproj"
             }
           }
         }
@@ -268,7 +250,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.200"
+      "SdkAnalysisLevel": "9.0.300"
     },
     "frameworks": {
       "net8.0": {
@@ -295,11 +277,20 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.313/PortableRuntimeIdentifierGraph.json"
       }
     }
   },
   "logs": [
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "No se encuentra el proyecto \"C:\\Users\\mglez\\OneDrive - Fundación Universitaria San Pablo CEU\\Escritorio\\3 AÑO\\2 CUATRI\\Programacion en Entornos Distribuidos\\Proyecto-Dune\\dune-arrakis-dominion\\src\\Shared\\Shared.csproj\". Compruebe que la referencia al proyecto sea válida y que exista el archivo de proyecto.",
+      "libraryId": "C:\\Users\\mglez\\OneDrive - Fundación Universitaria San Pablo CEU\\Escritorio\\3 AÑO\\2 CUATRI\\Programacion en Entornos Distribuidos\\Proyecto-Dune\\dune-arrakis-dominion\\src\\Shared\\Shared.csproj",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
     {
       "code": "NU1903",
       "level": "Warning",

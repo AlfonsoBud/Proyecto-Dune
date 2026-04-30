@@ -1445,8 +1445,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
-          "Domain": "1.0.0",
-          "Shared": "1.0.0"
+          "C:\\Users\\mglez\\OneDrive - Fundación Universitaria San Pablo CEU\\Escritorio\\3 AÑO\\2 CUATRI\\Programacion en Entornos Distribuidos\\Proyecto-Dune\\dune-arrakis-dominion\\src\\Shared\\Shared.csproj": "1.0.0",
+          "Domain": "1.0.0"
         },
         "compile": {
           "bin/placeholder/Application.dll": {}
@@ -1472,8 +1472,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
+          "C:\\Users\\mglez\\OneDrive - Fundación Universitaria San Pablo CEU\\Escritorio\\3 AÑO\\2 CUATRI\\Programacion en Entornos Distribuidos\\Proyecto-Dune\\dune-arrakis-dominion\\src\\Shared\\Shared.csproj": "1.0.0",
           "Domain": "1.0.0",
-          "Shared": "1.0.0",
           "System.Text.Json": "6.0.0"
         },
         "compile": {
@@ -1487,43 +1487,15 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
+          "C:\\Users\\mglez\\OneDrive - Fundación Universitaria San Pablo CEU\\Escritorio\\3 AÑO\\2 CUATRI\\Programacion en Entornos Distribuidos\\Proyecto-Dune\\dune-arrakis-dominion\\src\\Shared\\Shared.csproj": "1.0.0",
           "Domain": "1.0.0",
-          "Infrastructure": "1.0.0",
-          "Shared": "1.0.0"
+          "Infrastructure": "1.0.0"
         },
         "compile": {
           "bin/placeholder/PersistenceService.dll": {}
         },
         "runtime": {
           "bin/placeholder/PersistenceService.dll": {}
-        }
-      },
-      "Shared/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
-        "dependencies": {
-          "Domain": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/Shared.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Shared.dll": {}
-        }
-      },
-      "SimulationService/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
-        "dependencies": {
-          "Application": "1.0.0",
-          "Domain": "1.0.0",
-          "Shared": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/SimulationService.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/SimulationService.dll": {}
         }
       }
     }
@@ -5014,27 +4986,17 @@
       "type": "project",
       "path": "../PersistenceService/PersistenceService.csproj",
       "msbuildProject": "../PersistenceService/PersistenceService.csproj"
-    },
-    "Shared/1.0.0": {
-      "type": "project",
-      "path": "../Shared/Shared.csproj",
-      "msbuildProject": "../Shared/Shared.csproj"
-    },
-    "SimulationService/1.0.0": {
-      "type": "project",
-      "path": "../SimulationService/SimulationService.csproj",
-      "msbuildProject": "../SimulationService/SimulationService.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
       "Application >= 1.0.0",
+      "C:\\Users\\mglez\\OneDrive - Fundación Universitaria San Pablo CEU\\Escritorio\\3 AÑO\\2 CUATRI\\Programacion en Entornos Distribuidos\\Proyecto-Dune\\dune-arrakis-dominion\\src\\Shared\\Shared.csproj",
+      "C:\\Users\\mglez\\OneDrive - Fundación Universitaria San Pablo CEU\\Escritorio\\3 AÑO\\2 CUATRI\\Programacion en Entornos Distribuidos\\Proyecto-Dune\\dune-arrakis-dominion\\src\\SimulationService\\SimulationService.csproj",
       "Domain >= 1.0.0",
       "DotNetEnv >= 2.5.0",
       "Infrastructure >= 1.0.0",
-      "PersistenceService >= 1.0.0",
-      "Shared >= 1.0.0",
-      "SimulationService >= 1.0.0"
+      "PersistenceService >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -5044,11 +5006,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mglez\\OneDrive - Fundación Universitaria San Pablo CEU\\Escritorio\\3 AÑO\\2 CUATRI\\Programacion en Entornos Distribuidos\\Dune\\Proyecto-Dune\\dune-arrakis-dominion\\src\\AdminClient\\AdminClient.csproj",
+      "projectUniqueName": "C:\\Users\\mglez\\OneDrive - Fundación Universitaria San Pablo CEU\\Escritorio\\3 AÑO\\2 CUATRI\\Programacion en Entornos Distribuidos\\Proyecto-Dune\\dune-arrakis-dominion\\src\\AdminClient\\AdminClient.csproj",
       "projectName": "AdminClient",
-      "projectPath": "C:\\Users\\mglez\\OneDrive - Fundación Universitaria San Pablo CEU\\Escritorio\\3 AÑO\\2 CUATRI\\Programacion en Entornos Distribuidos\\Dune\\Proyecto-Dune\\dune-arrakis-dominion\\src\\AdminClient\\AdminClient.csproj",
+      "projectPath": "C:\\Users\\mglez\\OneDrive - Fundación Universitaria San Pablo CEU\\Escritorio\\3 AÑO\\2 CUATRI\\Programacion en Entornos Distribuidos\\Proyecto-Dune\\dune-arrakis-dominion\\src\\AdminClient\\AdminClient.csproj",
       "packagesPath": "C:\\Users\\mglez\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mglez\\OneDrive - Fundación Universitaria San Pablo CEU\\Escritorio\\3 AÑO\\2 CUATRI\\Programacion en Entornos Distribuidos\\Dune\\Proyecto-Dune\\dune-arrakis-dominion\\src\\AdminClient\\obj\\",
+      "outputPath": "C:\\Users\\mglez\\OneDrive - Fundación Universitaria San Pablo CEU\\Escritorio\\3 AÑO\\2 CUATRI\\Programacion en Entornos Distribuidos\\Proyecto-Dune\\dune-arrakis-dominion\\src\\AdminClient\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -5069,23 +5031,23 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\mglez\\OneDrive - Fundación Universitaria San Pablo CEU\\Escritorio\\3 AÑO\\2 CUATRI\\Programacion en Entornos Distribuidos\\Dune\\Proyecto-Dune\\dune-arrakis-dominion\\src\\Application\\Application.csproj": {
-              "projectPath": "C:\\Users\\mglez\\OneDrive - Fundación Universitaria San Pablo CEU\\Escritorio\\3 AÑO\\2 CUATRI\\Programacion en Entornos Distribuidos\\Dune\\Proyecto-Dune\\dune-arrakis-dominion\\src\\Application\\Application.csproj"
+            "C:\\Users\\mglez\\OneDrive - Fundación Universitaria San Pablo CEU\\Escritorio\\3 AÑO\\2 CUATRI\\Programacion en Entornos Distribuidos\\Proyecto-Dune\\dune-arrakis-dominion\\src\\Application\\Application.csproj": {
+              "projectPath": "C:\\Users\\mglez\\OneDrive - Fundación Universitaria San Pablo CEU\\Escritorio\\3 AÑO\\2 CUATRI\\Programacion en Entornos Distribuidos\\Proyecto-Dune\\dune-arrakis-dominion\\src\\Application\\Application.csproj"
             },
-            "C:\\Users\\mglez\\OneDrive - Fundación Universitaria San Pablo CEU\\Escritorio\\3 AÑO\\2 CUATRI\\Programacion en Entornos Distribuidos\\Dune\\Proyecto-Dune\\dune-arrakis-dominion\\src\\Domain\\Domain.csproj": {
-              "projectPath": "C:\\Users\\mglez\\OneDrive - Fundación Universitaria San Pablo CEU\\Escritorio\\3 AÑO\\2 CUATRI\\Programacion en Entornos Distribuidos\\Dune\\Proyecto-Dune\\dune-arrakis-dominion\\src\\Domain\\Domain.csproj"
+            "C:\\Users\\mglez\\OneDrive - Fundación Universitaria San Pablo CEU\\Escritorio\\3 AÑO\\2 CUATRI\\Programacion en Entornos Distribuidos\\Proyecto-Dune\\dune-arrakis-dominion\\src\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\Users\\mglez\\OneDrive - Fundación Universitaria San Pablo CEU\\Escritorio\\3 AÑO\\2 CUATRI\\Programacion en Entornos Distribuidos\\Proyecto-Dune\\dune-arrakis-dominion\\src\\Domain\\Domain.csproj"
             },
-            "C:\\Users\\mglez\\OneDrive - Fundación Universitaria San Pablo CEU\\Escritorio\\3 AÑO\\2 CUATRI\\Programacion en Entornos Distribuidos\\Dune\\Proyecto-Dune\\dune-arrakis-dominion\\src\\Infrastructure\\Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\mglez\\OneDrive - Fundación Universitaria San Pablo CEU\\Escritorio\\3 AÑO\\2 CUATRI\\Programacion en Entornos Distribuidos\\Dune\\Proyecto-Dune\\dune-arrakis-dominion\\src\\Infrastructure\\Infrastructure.csproj"
+            "C:\\Users\\mglez\\OneDrive - Fundación Universitaria San Pablo CEU\\Escritorio\\3 AÑO\\2 CUATRI\\Programacion en Entornos Distribuidos\\Proyecto-Dune\\dune-arrakis-dominion\\src\\Infrastructure\\Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\mglez\\OneDrive - Fundación Universitaria San Pablo CEU\\Escritorio\\3 AÑO\\2 CUATRI\\Programacion en Entornos Distribuidos\\Proyecto-Dune\\dune-arrakis-dominion\\src\\Infrastructure\\Infrastructure.csproj"
             },
-            "C:\\Users\\mglez\\OneDrive - Fundación Universitaria San Pablo CEU\\Escritorio\\3 AÑO\\2 CUATRI\\Programacion en Entornos Distribuidos\\Dune\\Proyecto-Dune\\dune-arrakis-dominion\\src\\PersistenceService\\PersistenceService.csproj": {
-              "projectPath": "C:\\Users\\mglez\\OneDrive - Fundación Universitaria San Pablo CEU\\Escritorio\\3 AÑO\\2 CUATRI\\Programacion en Entornos Distribuidos\\Dune\\Proyecto-Dune\\dune-arrakis-dominion\\src\\PersistenceService\\PersistenceService.csproj"
+            "C:\\Users\\mglez\\OneDrive - Fundación Universitaria San Pablo CEU\\Escritorio\\3 AÑO\\2 CUATRI\\Programacion en Entornos Distribuidos\\Proyecto-Dune\\dune-arrakis-dominion\\src\\PersistenceService\\PersistenceService.csproj": {
+              "projectPath": "C:\\Users\\mglez\\OneDrive - Fundación Universitaria San Pablo CEU\\Escritorio\\3 AÑO\\2 CUATRI\\Programacion en Entornos Distribuidos\\Proyecto-Dune\\dune-arrakis-dominion\\src\\PersistenceService\\PersistenceService.csproj"
             },
-            "C:\\Users\\mglez\\OneDrive - Fundación Universitaria San Pablo CEU\\Escritorio\\3 AÑO\\2 CUATRI\\Programacion en Entornos Distribuidos\\Dune\\Proyecto-Dune\\dune-arrakis-dominion\\src\\Shared\\Shared.csproj": {
-              "projectPath": "C:\\Users\\mglez\\OneDrive - Fundación Universitaria San Pablo CEU\\Escritorio\\3 AÑO\\2 CUATRI\\Programacion en Entornos Distribuidos\\Dune\\Proyecto-Dune\\dune-arrakis-dominion\\src\\Shared\\Shared.csproj"
+            "C:\\Users\\mglez\\OneDrive - Fundación Universitaria San Pablo CEU\\Escritorio\\3 AÑO\\2 CUATRI\\Programacion en Entornos Distribuidos\\Proyecto-Dune\\dune-arrakis-dominion\\src\\Shared\\Shared.csproj": {
+              "projectPath": "C:\\Users\\mglez\\OneDrive - Fundación Universitaria San Pablo CEU\\Escritorio\\3 AÑO\\2 CUATRI\\Programacion en Entornos Distribuidos\\Proyecto-Dune\\dune-arrakis-dominion\\src\\Shared\\Shared.csproj"
             },
-            "C:\\Users\\mglez\\OneDrive - Fundación Universitaria San Pablo CEU\\Escritorio\\3 AÑO\\2 CUATRI\\Programacion en Entornos Distribuidos\\Dune\\Proyecto-Dune\\dune-arrakis-dominion\\src\\SimulationService\\SimulationService.csproj": {
-              "projectPath": "C:\\Users\\mglez\\OneDrive - Fundación Universitaria San Pablo CEU\\Escritorio\\3 AÑO\\2 CUATRI\\Programacion en Entornos Distribuidos\\Dune\\Proyecto-Dune\\dune-arrakis-dominion\\src\\SimulationService\\SimulationService.csproj"
+            "C:\\Users\\mglez\\OneDrive - Fundación Universitaria San Pablo CEU\\Escritorio\\3 AÑO\\2 CUATRI\\Programacion en Entornos Distribuidos\\Proyecto-Dune\\dune-arrakis-dominion\\src\\SimulationService\\SimulationService.csproj": {
+              "projectPath": "C:\\Users\\mglez\\OneDrive - Fundación Universitaria San Pablo CEU\\Escritorio\\3 AÑO\\2 CUATRI\\Programacion en Entornos Distribuidos\\Proyecto-Dune\\dune-arrakis-dominion\\src\\SimulationService\\SimulationService.csproj"
             }
           }
         }
@@ -5100,7 +5062,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.200"
+      "SdkAnalysisLevel": "9.0.300"
     },
     "frameworks": {
       "net8.0": {
@@ -5127,8 +5089,28 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.313/PortableRuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "No se encuentra el proyecto \"C:\\Users\\mglez\\OneDrive - Fundación Universitaria San Pablo CEU\\Escritorio\\3 AÑO\\2 CUATRI\\Programacion en Entornos Distribuidos\\Proyecto-Dune\\dune-arrakis-dominion\\src\\Shared\\Shared.csproj\". Compruebe que la referencia al proyecto sea válida y que exista el archivo de proyecto.",
+      "libraryId": "C:\\Users\\mglez\\OneDrive - Fundación Universitaria San Pablo CEU\\Escritorio\\3 AÑO\\2 CUATRI\\Programacion en Entornos Distribuidos\\Proyecto-Dune\\dune-arrakis-dominion\\src\\Shared\\Shared.csproj",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "No se encuentra el proyecto \"C:\\Users\\mglez\\OneDrive - Fundación Universitaria San Pablo CEU\\Escritorio\\3 AÑO\\2 CUATRI\\Programacion en Entornos Distribuidos\\Proyecto-Dune\\dune-arrakis-dominion\\src\\SimulationService\\SimulationService.csproj\". Compruebe que la referencia al proyecto sea válida y que exista el archivo de proyecto.",
+      "libraryId": "C:\\Users\\mglez\\OneDrive - Fundación Universitaria San Pablo CEU\\Escritorio\\3 AÑO\\2 CUATRI\\Programacion en Entornos Distribuidos\\Proyecto-Dune\\dune-arrakis-dominion\\src\\SimulationService\\SimulationService.csproj",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
 }

@@ -1,6 +1,7 @@
 using System;
 using System.Linq;
 using System.Threading.Tasks;
+using System.Collections.Generic;
 using Domain.Entities;
 using Domain.Enums;
 using Shared;
@@ -46,26 +47,29 @@ namespace Application.Services
             }
         }
 
-        private async Task SimulateInstallationAsync(Game game, Installation installation)
+        private Task SimulateInstallationAsync(Game game, Installation installation)
         {
-            double totalSuppliesNeeded = 0;
-            double availableSupplies = installation.Supplies;
+            // Evitar modificar la colección original durante la iteración
+            var creatures = installation.Creatures.ToList();
 
-            // Calculate feeding for each creature
-            foreach (var creature in installation.Creatures)
+            double totalSuppliesNeeded = 0;
+            foreach (var creature in creatures)
             {
-                double needed = CalculateFoodNeeded(creature);
-                totalSuppliesNeeded += needed;
+                totalSuppliesNeeded += CalculateFoodNeeded(creature);
             }
 
-            // Feed creatures based on available supplies
-            double supplyRatio = availableSupplies / totalSuppliesNeeded;
-            if (supplyRatio > 1) supplyRatio = 1;
+            double availableSupplies = installation.Supplies;
+            // Evitar división por cero
+            double supplyRatio = totalSuppliesNeeded <= 0 ? 0 : Math.Min(1, availableSupplies / totalSuppliesNeeded);
 
-            foreach (var creature in installation.Creatures)
+            var offspringToAdd = new List<Creature>();
+            var rnd = Random.Shared;
+
+            foreach (var creature in creatures)
             {
-                double fedAmount = CalculateFoodNeeded(creature) * supplyRatio;
-                double fedPercentage = fedAmount / CalculateFoodNeeded(creature) * 100;
+                double needed = CalculateFoodNeeded(creature);
+                double fedAmount = needed * supplyRatio;
+                double fedPercentage = needed <= 0 ? 0 : (fedAmount / needed) * 100.0;
 
                 // Update health based on feeding
                 int healthChange = CalculateHealthChange(fedPercentage);
@@ -74,8 +78,8 @@ namespace Application.Services
                 // Age the creature
                 creature.GrowOlder();
 
-                // Reproduction
-                if (creature.Age >= creature.AdultAge && new Random().Next(100) < 20)
+                // Reproduction (usar Random.Shared)
+                if (creature.AdultAge > 0 && creature.Age >= creature.AdultAge && rnd.Next(100) < 20)
                 {
                     // Create offspring
                     var offspring = new Creature(
@@ -85,16 +89,24 @@ namespace Application.Services
                         creature.AdultAge,
                         creature.Appetite
                     );
-                    installation.Creatures.Add(offspring);
+                    offspringToAdd.Add(offspring);
                     game.AddEvent($"Creature {creature.Name} reproduced", "Creature");
                 }
 
                 game.AddEvent($"Creature {creature.Name} fed {fedPercentage:F1}%, health now {creature.Health}", "Creature");
             }
 
-            // Update supplies
+            // Añadir descendientes después de iterar
+            if (offspringToAdd.Count > 0)
+            {
+                installation.Creatures.AddRange(offspringToAdd);
+            }
+
+            // Actualizar suministros
             installation.Supplies -= (int)(totalSuppliesNeeded * supplyRatio);
             if (installation.Supplies < 0) installation.Supplies = 0;
+
+            return Task.CompletedTask;
         }
 
         private double CalculateFoodNeeded(Creature creature)
@@ -105,7 +117,10 @@ namespace Application.Services
             }
             else
             {
-                return creature.Appetite * Math.Pow(2, creature.Age - creature.AdultAge);
+                // Proteger contra exponentes muy altos
+                var exponent = Math.Max(0, creature.Age - creature.AdultAge);
+                var factor = Math.Min(32.0, Math.Pow(2, exponent)); // tope razonable
+                return creature.Appetite * factor;
             }
         }
 
@@ -119,28 +134,31 @@ namespace Application.Services
 
         private int CalculateVisitors(Enclave enclave)
         {
-            double totalHectares = enclave.Installations.Sum(i => i.Capacity); // Assuming capacity represents hectares per installation
-            double instHectares = enclave.Hectares; // This might need adjustment
-            double avgHealth = enclave.Installations
-                .SelectMany(i => i.Creatures)
-                .Average(c => c.Health);
+            // Protección contra listas vacías y división por cero.
+            var allCreatures = enclave.Installations.SelectMany(i => i.Creatures).ToList();
+            if (!allCreatures.Any()) return 0;
 
-            // Simplified formula
-            return (int)(enclave.Visitors * (instHectares / totalHectares) * (avgHealth / 100));
+            double avgHealth = allCreatures.Average(c => c.Health);
+            // Fórmula sencilla y determinista: visitantes por hectárea ponderado por salud media
+            const double baseVisitorsPerHectare = 10.0;
+            var visitors = (int)(enclave.Hectares * baseVisitorsPerHectare * (avgHealth / 100.0));
+            return Math.Max(0, visitors);
         }
 
         private decimal CalculateDonations(Enclave enclave)
         {
-            double sigma = enclave.Installations
-                .SelectMany(i => i.Creatures)
-                .Average(c => c.Health / 100.0);
+            var creatures = enclave.Installations.SelectMany(i => i.Creatures).ToList();
+            if (!creatures.Any()) return 0m;
+
+            double sigma = creatures.Average(c => c.Health / 100.0);
 
             decimal totalDonations = 0;
             foreach (var installation in enclave.Installations)
             {
                 foreach (var creature in installation.Creatures)
                 {
-                    double donation = 10 * (creature.Health / 100.0) * (creature.Age / (double)creature.AdultAge) * sigma;
+                    var adultDenom = creature.AdultAge > 0 ? creature.AdultAge : 1;
+                    double donation = 10 * (creature.Health / 100.0) * (creature.Age / (double)adultDenom) * sigma;
                     totalDonations += (decimal)donation;
                 }
             }

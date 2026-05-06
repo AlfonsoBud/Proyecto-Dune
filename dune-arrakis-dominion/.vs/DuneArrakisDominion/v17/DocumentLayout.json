@@ -1,10 +1,34 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\mglez\\OneDrive - Fundaci\u00F3n Universitaria San Pablo CEU\\Escritorio\\3 A\u00D1O\\2 CUATRI\\Programacion en Entornos Distribuidos\\Dune\\Proyecto-Dune\\dune-arrakis-dominion\\",
+  "WorkspaceRootPath": "C:\\Users\\mglez\\OneDrive - Fundaci\u00F3n Universitaria San Pablo CEU\\Escritorio\\3 A\u00D1O\\2 CUATRI\\Programacion en Entornos Distribuidos\\Proyecto-Dune\\dune-arrakis-dominion\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7F35AB48-9A5A-4E08-8BF3-3A0A1F4A0F85}|src\\AdminClient\\AdminClient.csproj|c:\\users\\mglez\\onedrive - fundaci\u00F3n universitaria san pablo ceu\\escritorio\\3 a\u00F1o\\2 cuatri\\programacion en entornos distribuidos\\dune\\proyecto-dune\\dune-arrakis-dominion\\src\\adminclient\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mglez\\OneDrive - Fundaci\u00F3n Universitaria San Pablo CEU\\Escritorio\\3 A\u00D1O\\2 CUATRI\\Programacion en Entornos Distribuidos\\Proyecto-Dune\\dune-arrakis-dominion\\src\\Api\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\Api\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mglez\\OneDrive - Fundaci\u00F3n Universitaria San Pablo CEU\\Escritorio\\3 A\u00D1O\\2 CUATRI\\Programacion en Entornos Distribuidos\\Proyecto-Dune\\dune-arrakis-dominion\\src\\Api\\Properties\\launchSettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\Api\\Properties\\launchSettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99F2E1F7-6407-4647-8477-53E9174E375E}|src\\Infrastructure\\Infrastructure.csproj|c:\\users\\mglez\\onedrive - fundaci\u00F3n universitaria san pablo ceu\\escritorio\\3 a\u00F1o\\2 cuatri\\programacion en entornos distribuidos\\proyecto-dune\\dune-arrakis-dominion\\src\\infrastructure\\jsongamerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99F2E1F7-6407-4647-8477-53E9174E375E}|src\\Infrastructure\\Infrastructure.csproj|solutionrelative:src\\infrastructure\\jsongamerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0A7AFA6-2C63-4D5D-9F8C-867811A21662}|src\\Application\\Application.csproj|c:\\users\\mglez\\onedrive - fundaci\u00F3n universitaria san pablo ceu\\escritorio\\3 a\u00F1o\\2 cuatri\\programacion en entornos distribuidos\\proyecto-dune\\dune-arrakis-dominion\\src\\application\\services\\simulationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0A7AFA6-2C63-4D5D-9F8C-867811A21662}|src\\Application\\Application.csproj|solutionrelative:src\\application\\services\\simulationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B24C8678-E861-4569-9378-C1895E2C6388}|src\\PersistenceService\\PersistenceService.csproj|c:\\users\\mglez\\onedrive - fundaci\u00F3n universitaria san pablo ceu\\escritorio\\3 a\u00F1o\\2 cuatri\\programacion en entornos distribuidos\\proyecto-dune\\dune-arrakis-dominion\\src\\persistenceservice\\persistenceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B24C8678-E861-4569-9378-C1895E2C6388}|src\\PersistenceService\\PersistenceService.csproj|solutionrelative:src\\persistenceservice\\persistenceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F35AB48-9A5A-4E08-8BF3-3A0A1F4A0F85}|src\\AdminClient\\AdminClient.csproj|c:\\users\\mglez\\onedrive - fundaci\u00F3n universitaria san pablo ceu\\escritorio\\3 a\u00F1o\\2 cuatri\\programacion en entornos distribuidos\\proyecto-dune\\dune-arrakis-dominion\\src\\adminclient\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7F35AB48-9A5A-4E08-8BF3-3A0A1F4A0F85}|src\\AdminClient\\AdminClient.csproj|solutionrelative:src\\adminclient\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mglez\\OneDrive - Fundaci\u00F3n Universitaria San Pablo CEU\\Escritorio\\3 A\u00D1O\\2 CUATRI\\Programacion en Entornos Distribuidos\\Proyecto-Dune\\dune-arrakis-dominion\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}|",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +38,85 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "README.md",
+              "DocumentMoniker": "C:\\Users\\mglez\\OneDrive - Fundaci\u00F3n Universitaria San Pablo CEU\\Escritorio\\3 A\u00D1O\\2 CUATRI\\Programacion en Entornos Distribuidos\\Proyecto-Dune\\dune-arrakis-dominion\\src\\Api\\README.md",
+              "RelativeDocumentMoniker": "src\\Api\\README.md",
+              "ToolTip": "C:\\Users\\mglez\\OneDrive - Fundaci\u00F3n Universitaria San Pablo CEU\\Escritorio\\3 A\u00D1O\\2 CUATRI\\Programacion en Entornos Distribuidos\\Proyecto-Dune\\dune-arrakis-dominion\\src\\Api\\README.md",
+              "RelativeToolTip": "src\\Api\\README.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-04-30T16:03:09.8Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\mglez\\OneDrive - Fundaci\u00F3n Universitaria San Pablo CEU\\Escritorio\\3 A\u00D1O\\2 CUATRI\\Programacion en Entornos Distribuidos\\Proyecto-Dune\\dune-arrakis-dominion\\src\\Api\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "src\\Api\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\mglez\\OneDrive - Fundaci\u00F3n Universitaria San Pablo CEU\\Escritorio\\3 A\u00D1O\\2 CUATRI\\Programacion en Entornos Distribuidos\\Proyecto-Dune\\dune-arrakis-dominion\\src\\Api\\Properties\\launchSettings.json",
+              "RelativeToolTip": "src\\Api\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-30T16:02:53.144Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "README.md",
+              "DocumentMoniker": "C:\\Users\\mglez\\OneDrive - Fundaci\u00F3n Universitaria San Pablo CEU\\Escritorio\\3 A\u00D1O\\2 CUATRI\\Programacion en Entornos Distribuidos\\Proyecto-Dune\\dune-arrakis-dominion\\README.md",
+              "RelativeDocumentMoniker": "README.md",
+              "ToolTip": "C:\\Users\\mglez\\OneDrive - Fundaci\u00F3n Universitaria San Pablo CEU\\Escritorio\\3 A\u00D1O\\2 CUATRI\\Programacion en Entornos Distribuidos\\Proyecto-Dune\\dune-arrakis-dominion\\README.md",
+              "RelativeToolTip": "README.md",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-04-30T16:01:38.953Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "JsonGameRepository.cs",
+              "DocumentMoniker": "C:\\Users\\mglez\\OneDrive - Fundaci\u00F3n Universitaria San Pablo CEU\\Escritorio\\3 A\u00D1O\\2 CUATRI\\Programacion en Entornos Distribuidos\\Proyecto-Dune\\dune-arrakis-dominion\\src\\Infrastructure\\JsonGameRepository.cs",
+              "RelativeDocumentMoniker": "src\\Infrastructure\\JsonGameRepository.cs",
+              "ToolTip": "C:\\Users\\mglez\\OneDrive - Fundaci\u00F3n Universitaria San Pablo CEU\\Escritorio\\3 A\u00D1O\\2 CUATRI\\Programacion en Entornos Distribuidos\\Proyecto-Dune\\dune-arrakis-dominion\\src\\Infrastructure\\JsonGameRepository.cs",
+              "RelativeToolTip": "src\\Infrastructure\\JsonGameRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-30T15:35:22.183Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SimulationService.cs",
+              "DocumentMoniker": "C:\\Users\\mglez\\OneDrive - Fundaci\u00F3n Universitaria San Pablo CEU\\Escritorio\\3 A\u00D1O\\2 CUATRI\\Programacion en Entornos Distribuidos\\Proyecto-Dune\\dune-arrakis-dominion\\src\\Application\\Services\\SimulationService.cs",
+              "RelativeDocumentMoniker": "src\\Application\\Services\\SimulationService.cs",
+              "ToolTip": "C:\\Users\\mglez\\OneDrive - Fundaci\u00F3n Universitaria San Pablo CEU\\Escritorio\\3 A\u00D1O\\2 CUATRI\\Programacion en Entornos Distribuidos\\Proyecto-Dune\\dune-arrakis-dominion\\src\\Application\\Services\\SimulationService.cs",
+              "RelativeToolTip": "src\\Application\\Services\\SimulationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-30T15:35:08.286Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PersistenceService.cs",
+              "DocumentMoniker": "C:\\Users\\mglez\\OneDrive - Fundaci\u00F3n Universitaria San Pablo CEU\\Escritorio\\3 A\u00D1O\\2 CUATRI\\Programacion en Entornos Distribuidos\\Proyecto-Dune\\dune-arrakis-dominion\\src\\PersistenceService\\PersistenceService.cs",
+              "RelativeDocumentMoniker": "src\\PersistenceService\\PersistenceService.cs",
+              "ToolTip": "C:\\Users\\mglez\\OneDrive - Fundaci\u00F3n Universitaria San Pablo CEU\\Escritorio\\3 A\u00D1O\\2 CUATRI\\Programacion en Entornos Distribuidos\\Proyecto-Dune\\dune-arrakis-dominion\\src\\PersistenceService\\PersistenceService.cs",
+              "RelativeToolTip": "src\\PersistenceService\\PersistenceService.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwAcAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-30T15:24:48.676Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
@@ -26,11 +127,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\mglez\\OneDrive - Fundaci\u00F3n Universitaria San Pablo CEU\\Escritorio\\3 A\u00D1O\\2 CUATRI\\Programacion en Entornos Distribuidos\\Dune\\Proyecto-Dune\\dune-arrakis-dominion\\src\\AdminClient\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\mglez\\OneDrive - Fundaci\u00F3n Universitaria San Pablo CEU\\Escritorio\\3 A\u00D1O\\2 CUATRI\\Programacion en Entornos Distribuidos\\Proyecto-Dune\\dune-arrakis-dominion\\src\\AdminClient\\Program.cs",
               "RelativeDocumentMoniker": "src\\AdminClient\\Program.cs",
-              "ToolTip": "C:\\Users\\mglez\\OneDrive - Fundaci\u00F3n Universitaria San Pablo CEU\\Escritorio\\3 A\u00D1O\\2 CUATRI\\Programacion en Entornos Distribuidos\\Dune\\Proyecto-Dune\\dune-arrakis-dominion\\src\\AdminClient\\Program.cs",
+              "ToolTip": "C:\\Users\\mglez\\OneDrive - Fundaci\u00F3n Universitaria San Pablo CEU\\Escritorio\\3 A\u00D1O\\2 CUATRI\\Programacion en Entornos Distribuidos\\Proyecto-Dune\\dune-arrakis-dominion\\src\\AdminClient\\Program.cs",
               "RelativeToolTip": "src\\AdminClient\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

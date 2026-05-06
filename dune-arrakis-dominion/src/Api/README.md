@@ -7,3 +7,7 @@ Endpoints incluidos (ejemplo)
 
 Ejecución local
 1. Restaurar paquetes:
+````````
+dotnet add src/Api package Microsoft.EntityFrameworkCore.Sqlite --version 8.0.0
+dotnet add src/Api package Microsoft.EntityFrameworkCore.Design --version 8.0.0
+dotnet add src/Api package Microsoft.EntityFrameworkCore.Tools --version 8.0.0

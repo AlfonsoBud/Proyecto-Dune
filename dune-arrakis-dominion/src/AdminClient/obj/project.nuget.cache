@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jwJ+opnIoT4=",
+  "dgSpecHash": "VitB+U8Oq/0=",
   "success": true,
-  "projectFilePath": "c:\\Users\\mglez\\Downloads\\Git_Dune\\Proyecto-Dune\\dune-arrakis-dominion\\src\\AdminClient\\AdminClient.csproj",
+  "projectFilePath": "C:\\Users\\mglez\\Downloads\\Git_Dune\\Proyecto-Dune\\dune-arrakis-dominion\\src\\AdminClient\\AdminClient.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mglez\\.nuget\\packages\\dotnetenv\\2.5.0\\dotnetenv.2.5.0.nupkg.sha512",
     "C:\\Users\\mglez\\.nuget\\packages\\microsoft.data.sqlite.core\\8.0.0\\microsoft.data.sqlite.core.8.0.0.nupkg.sha512",

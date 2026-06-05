@@ -1,5 +1,5 @@
 {
-  "version": 4,
+  "version": 3,
   "targets": {
     "net8.0": {
       "System.Text.Encodings.Web/8.0.0": {
@@ -227,14 +227,13 @@
       },
       "frameworks": {
         "net8.0": {
-          "framework": "net8.0",
           "targetAlias": "net8.0",
           "projectReferences": {
-            "c:\\Users\\mglez\\Downloads\\Git_Dune\\Proyecto-Dune\\dune-arrakis-dominion\\src\\Domain\\Domain.csproj": {
-              "projectPath": "c:\\Users\\mglez\\Downloads\\Git_Dune\\Proyecto-Dune\\dune-arrakis-dominion\\src\\Domain\\Domain.csproj"
+            "C:\\Users\\mglez\\Downloads\\Git_Dune\\Proyecto-Dune\\dune-arrakis-dominion\\src\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\Users\\mglez\\Downloads\\Git_Dune\\Proyecto-Dune\\dune-arrakis-dominion\\src\\Domain\\Domain.csproj"
             },
-            "c:\\Users\\mglez\\Downloads\\Git_Dune\\Proyecto-Dune\\dune-arrakis-dominion\\src\\Shared\\Shared.csproj": {
-              "projectPath": "c:\\Users\\mglez\\Downloads\\Git_Dune\\Proyecto-Dune\\dune-arrakis-dominion\\src\\Shared\\Shared.csproj"
+            "C:\\Users\\mglez\\Downloads\\Git_Dune\\Proyecto-Dune\\dune-arrakis-dominion\\src\\Shared\\Shared.csproj": {
+              "projectPath": "C:\\Users\\mglez\\Downloads\\Git_Dune\\Proyecto-Dune\\dune-arrakis-dominion\\src\\Shared\\Shared.csproj"
             }
           }
         }
@@ -249,11 +248,10 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "10.0.300"
+      "SdkAnalysisLevel": "9.0.300"
     },
     "frameworks": {
       "net8.0": {
-        "framework": "net8.0",
         "targetAlias": "net8.0",
         "imports": [
           "net461",
@@ -271,7 +269,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.300/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.314/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

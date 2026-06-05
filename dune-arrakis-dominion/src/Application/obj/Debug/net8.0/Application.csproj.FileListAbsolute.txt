@@ -16,3 +16,21 @@ C:\Users\mglez\OneDrive - Fundación Universitaria San Pablo CEU\Escritorio\3 A�
 C:\Users\mglez\OneDrive - Fundación Universitaria San Pablo CEU\Escritorio\3 AÑO\2 CUATRI\Programacion en Entornos Distribuidos\Dune\Proyecto-Dune\dune-arrakis-dominion\src\Application\obj\Debug\net8.0\refint\Application.dll
 C:\Users\mglez\OneDrive - Fundación Universitaria San Pablo CEU\Escritorio\3 AÑO\2 CUATRI\Programacion en Entornos Distribuidos\Dune\Proyecto-Dune\dune-arrakis-dominion\src\Application\obj\Debug\net8.0\Application.pdb
 C:\Users\mglez\OneDrive - Fundación Universitaria San Pablo CEU\Escritorio\3 AÑO\2 CUATRI\Programacion en Entornos Distribuidos\Dune\Proyecto-Dune\dune-arrakis-dominion\src\Application\obj\Debug\net8.0\ref\Application.dll
+c:\Users\mglez\Downloads\Git_Dune\Proyecto-Dune\dune-arrakis-dominion\src\Application\obj\Debug\net8.0\Application.dll
+c:\Users\mglez\Downloads\Git_Dune\Proyecto-Dune\dune-arrakis-dominion\src\Application\obj\Debug\net8.0\refint\Application.dll
+c:\Users\mglez\Downloads\Git_Dune\Proyecto-Dune\dune-arrakis-dominion\src\Application\obj\Debug\net8.0\Application.pdb
+C:\Users\mglez\Downloads\Git_Dune\Proyecto-Dune\dune-arrakis-dominion\src\Application\bin\Debug\net8.0\Application.deps.json
+c:\Users\mglez\Downloads\Git_Dune\Proyecto-Dune\dune-arrakis-dominion\src\Application\bin\Debug\net8.0\Application.dll
+c:\Users\mglez\Downloads\Git_Dune\Proyecto-Dune\dune-arrakis-dominion\src\Application\bin\Debug\net8.0\Application.pdb
+c:\Users\mglez\Downloads\Git_Dune\Proyecto-Dune\dune-arrakis-dominion\src\Application\bin\Debug\net8.0\Domain.dll
+c:\Users\mglez\Downloads\Git_Dune\Proyecto-Dune\dune-arrakis-dominion\src\Application\bin\Debug\net8.0\Shared.dll
+c:\Users\mglez\Downloads\Git_Dune\Proyecto-Dune\dune-arrakis-dominion\src\Application\bin\Debug\net8.0\Domain.pdb
+c:\Users\mglez\Downloads\Git_Dune\Proyecto-Dune\dune-arrakis-dominion\src\Application\bin\Debug\net8.0\Shared.pdb
+c:\Users\mglez\Downloads\Git_Dune\Proyecto-Dune\dune-arrakis-dominion\src\Application\obj\Debug\net8.0\Application.csproj.AssemblyReference.cache
+c:\Users\mglez\Downloads\Git_Dune\Proyecto-Dune\dune-arrakis-dominion\src\Application\obj\Debug\net8.0\Application.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\mglez\Downloads\Git_Dune\Proyecto-Dune\dune-arrakis-dominion\src\Application\obj\Debug\net8.0\Application.AssemblyInfoInputs.cache
+c:\Users\mglez\Downloads\Git_Dune\Proyecto-Dune\dune-arrakis-dominion\src\Application\obj\Debug\net8.0\Application.AssemblyInfo.cs
+c:\Users\mglez\Downloads\Git_Dune\Proyecto-Dune\dune-arrakis-dominion\src\Application\obj\Debug\net8.0\Application.csproj.CoreCompileInputs.cache
+c:\Users\mglez\Downloads\Git_Dune\Proyecto-Dune\dune-arrakis-dominion\src\Application\obj\Debug\net8.0\Application.sourcelink.json
+C:\Users\mglez\Downloads\Git_Dune\Proyecto-Dune\dune-arrakis-dominion\src\Application\obj\Debug\net8.0\Applicat.44B5EDA2.Up2Date
+C:\Users\mglez\Downloads\Git_Dune\Proyecto-Dune\dune-arrakis-dominion\src\Application\obj\Debug\net8.0\ref\Application.dll

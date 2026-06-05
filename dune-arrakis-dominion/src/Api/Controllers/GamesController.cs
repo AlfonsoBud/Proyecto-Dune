@@ -3,6 +3,7 @@ using System;
 using System.Linq;
 using System.Threading.Tasks;
 using Application.Services;
+using Shared;
 using Api.DTOs;
 
 namespace Api.Controllers

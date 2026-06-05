@@ -3,6 +3,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using Domain.Entities;
+using Shared;
 using Infrastructure.Persistence.EF;
 using Infrastructure.Persistence.EF.Entities;
 using Microsoft.Extensions.Logging;

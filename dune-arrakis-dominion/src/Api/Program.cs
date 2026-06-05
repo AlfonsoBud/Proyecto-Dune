@@ -4,6 +4,9 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Api.Hubs;
 using System.Text.Json.Serialization;
+using Microsoft.EntityFrameworkCore;
+using Infrastructure.Persistence.EF;
+using Infrastructure.Persistence;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -19,6 +22,17 @@ builder.Services.AddCors(options =>
               .AllowCredentials();
     });
 });
+
+// Connection string desde appsettings.json
+var conn = builder.Configuration.GetConnectionString("DefaultConnection") ?? "Data Source=dune_game.db";
+builder.Services.AddDbContext<AppDbContext>(options => options.UseSqlite(conn));
+
+// Registrar repository concreto que implementa IGameRepository
+builder.Services.AddScoped<IGameRepository, SQLiteGameRepository>();
+
+// Registrar servicios de aplicación ya existentes
+builder.Services.AddScoped<Application.Services.IGameService, Application.Services.GameService>();
+builder.Services.AddScoped<Application.Services.ISimulationService, Application.Services.SimulationService>();
 
 // Registrar controllers y SignalR
 builder.Services.AddControllers().AddJsonOptions(opts =>
@@ -37,13 +51,6 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
         options.Events ??= new JwtBearerEvents();
         options.RequireHttpsMetadata = false; // En entornos de desarrollo. En producción, true.
     });
-
-// Nota: registra tus servicios concretos según tus proyectos
-// Ejemplo (ajusta nombres de clases y namespaces a tu solución):
-// builder.Services.AddSingleton<Domain.Repositories.IGameRepository, Infrastructure.Persistence.JsonGameRepository>();
-// builder.Services.AddScoped<Application.Services.GameService>();
-// builder.Services.AddScoped<Application.Services.SimulationService>();
-// builder.Services.AddScoped<Infrastructure.Persistence.PersistenceService>();
 
 var app = builder.Build();
 
